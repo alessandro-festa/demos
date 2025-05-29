@@ -2,9 +2,9 @@
 namespace: suseai
 
 helm:
-  helmSecretName: basic-auth-secret
-  ociRegistry:
-    authSecretName: application-collection
+  # helmSecretName: basic-auth-secret
+  # ociRegistry:
+  #   authSecretName: application-collection
   chart: "oci://dp.apps.rancher.io/charts/open-webui"
   version: "5.16.0"  
   valuesFiles:

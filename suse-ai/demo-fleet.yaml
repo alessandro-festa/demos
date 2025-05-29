@@ -6,9 +6,9 @@ metadata:
   namespace: fleet-local
 spec:
   repo: https://github.com/alessandro-festa/demos
-  helmSecretName: basic-auth-secret
-  ociRegistry:
-    authSecretName: application-collection
+  # helmSecretName: basic-auth-secret
+  # ociRegistry:
+  #   authSecretName: application-collection
   branch: main
   paths:
   - suse-ai
