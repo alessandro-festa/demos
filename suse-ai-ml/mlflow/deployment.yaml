@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: mlflow
-          image: dp.apps.rancher.io/containers/mlflow:2.22.0
+          image: dp.apps.rancher.io/containers/mlflow:3.3.2
           resources:
             requests:
               memory: "512Mi"
