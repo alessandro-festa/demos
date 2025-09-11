@@ -50,7 +50,7 @@ extraEnvVars:
 - name: DEFAULT_USER_ROLE
   value: "user"
 - name: WEBUI_NAME
-  value: "SUSE AI"
+  value: "SUSE AI Demo"
 - name: GLOBAL_LOG_LEVEL
   value: INFO
 - name: ENABLE_DIRECT_CONNECTIONS
